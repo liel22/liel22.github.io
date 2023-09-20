@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="xo.css" />
+  </head>
+  <body>
+    <div class="title">Tic Tac Toe Game</div>
+    <div class="turn-of">X turn:</div>
+    <div class="main-grid">
+      <div class="cell">
+        <button
+          onclick="
+            playGame('first-button',0);"
+          class="first-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('second-button',1);"
+          class="second-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('third-button',2);"
+          class="third-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('fourth-button',3);"
+          class="fourth-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('fifth-button',4);"
+          class="fifth-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('sixth-button',5);"
+          class="sixth-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('seventh-button',6);"
+          class="seventh-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('eigth-button',7);"
+          class="eigth-button"
+        ></button>
+      </div>
+      <div class="cell">
+        <button
+          onclick="
+        playGame('ninth-button',8);"
+          class="ninth-button"
+        ></button>
+      </div>
+    </div>
+    <div class="result-container"></div>
+    <div class="pa-container">
+      <button class="play-again" onclick="playAgain();">Play Again</button>
+      <button class="reset-score" onclick="resetScore()">Reset Score</button>
+    </div>
+    <div class="scores"></div>
+
+    <script src="xo.js"></script>
+  </body>
+</html>
